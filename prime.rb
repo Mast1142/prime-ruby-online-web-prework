@@ -1,5 +1,5 @@
 def prime?(n)
-  for i in (2..n) do
+  for i in (2..n/2) do
     if (n % i == 0)
       return true
     else
