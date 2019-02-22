@@ -1,7 +1,8 @@
 def prime?(n)
-  if (2..n/2).none? {|i| n % i == 0}
+  for i in (2..n) do
+    if (n % i == 0)
       return "true"
-    else (n % i != 0)
+    else
       return "false"
     end
   end
