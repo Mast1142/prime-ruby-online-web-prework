@@ -1,5 +1,5 @@
 def prime?(n)
-  if n < 0
+  if n <= 0
     return false
   end
     for i in (1..n.to_i) do
