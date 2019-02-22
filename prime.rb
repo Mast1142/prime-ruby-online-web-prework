@@ -6,8 +6,7 @@ def prime?(n)
   elsif n == 2
     return prime
   else  
-    for i in (2..n) do
-      binding.pry
+    for i in (3..n) do
       if (n % i == 0)
         prime = true
       else
@@ -15,6 +14,5 @@ def prime?(n)
       end
     end
   end
-
   prime
 end
