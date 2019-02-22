@@ -4,11 +4,9 @@ def prime?(n)
   if n <= 1
     return false
   else  
-    for i in (3..n) do
+    for i in (2..n-1) do
       if (n % i == 0)
-        prime = true
-      else
-        prime = false
+        return false
       end
     end
   end
