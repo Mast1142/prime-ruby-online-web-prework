@@ -3,7 +3,7 @@ def prime?(n)
   if n <= 0
     return false
   end
-    for i in (1..n.to_a) do
+    for i in (1..n) do
       binding.pry
     if (n % i == 0)
       return true
